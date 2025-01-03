@@ -1,0 +1,558 @@
+.nava{
+    font-family: "Work Sans", sans-serif;
+}
+
+.but2{
+    box-shadow: 0px 0px 10px #01eeff;
+}
+
+.bug3{
+    box-shadow: 0px 0px 7px #01eeff;
+}
+
+input{
+    color: white;
+    font-size: 1.2rem;
+    /* text-transform: capitalize; */
+   
+
+}
+.but4{
+    box-shadow: 0px 0px 3px #01eeff;
+}
+
+.cut1{
+    display: none;
+    font-size: x-large;
+    animation-name: navigationChanger;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    
+}
+.slidNav{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 7vh;
+    /* margin-right: 15vw; */
+    list-style-type: none;
+    /* font-weight: bold; */
+    font-size: 1.7rem;
+    background-color:#323846;
+    color: white;
+    width: 70vw;
+    /* padding-left: 20px; */
+    z-index: 500000;
+    height: 93vh;
+    padding: 0px 0px 20px 25px;
+    /* font-family: "Noto Serif", serif; */
+    font-family: "Inconsolata", monospace;
+    
+
+}
+
+#back{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+@keyframes navigationChanger {
+    from{transform: rotate(0deg)}
+    to {transform: rotate(180deg)}
+    
+}
+
+.toggle{
+    display: block;
+    font-size: x-large;
+    animation-name: navigationChanger2;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes navigationChanger2 {
+    from{transform: rotate(0deg)}
+    to {transform: rotate(-180deg)}
+    
+}
+
+.toggle2{
+    display: block;
+    /* font-size: x-large; */
+    animation-name: navigationChanger3;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes navigationChanger3 {
+    from{right: -70vw;}
+    to {right: 0px;}
+    
+}
+.toggle3{
+    display: block;
+    
+    /* font-size: x-large; */
+    animation-name: navigationChanger4;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+@keyframes navigationChanger4 {
+    from{right: 0vw;}
+    to {right: -70vw;
+    }
+    
+}
+
+.under:visited{
+    color: #01eeff;
+    border-bottom: 2px solid #01eeff;
+}
+.under:active:hover{
+color: #01eeff;
+    border-bottom: 2px solid #01eeff;
+}
+
+
+@media screen and (max-width: 500px){
+    .nav{
+        display: none;
+    }
+    html{
+        font-size: 70%;
+    }
+    .fa-bars{
+        display: block;
+        z-index: 15555;
+        color: white;
+        font: bold;
+        font-size: 2rem;
+    }
+    .home-one{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .hhh-one{
+        width: 90vw;
+    }
+    .hhh-two{
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+    .hh-one{
+        order: 1;
+    }
+    .hh-two{
+        width: 90vw;
+        
+        order: 2;
+        
+    }
+    .about-one{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .aa-one{
+        width: 85vw;
+    }
+    .pb{
+        padding-bottom: 5vh;
+    }
+    .ass{
+        display: block;
+    }
+    .proj-one{
+        grid-template-columns: 1fr;
+        width: 85vw;
+        
+    }
+    .proj-text{
+        height: 5vh;
+        font-size: 1.3rem;
+    }
+    .proj{
+        height: auto;
+        padding-bottom: 5vh;
+    }
+    .butt{
+        width: 30vw;
+        font-size: 1.15rem;
+    }
+    .buttt{
+        width: 40vw;
+        height: 5vh;
+        border-radius: 30px;
+        font-size: 1.25rem;
+    }
+   .register-one{
+    grid-gap: 8px;
+   }
+    .rr-one{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 6vh;
+        font-size: 1.5rem;
+    }
+    .rr-two{
+       
+        font-size: 1.5rem;
+    }
+    .ass-one{
+        width: 85vw;
+    }
+    .slid{
+        display: none;
+    }
+    .slidd{
+       
+        height: auto;
+        padding-bottom: 10vh;
+        padding-top: 5vh;
+    }
+  .slid3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+  }
+  .slid4{
+    height: 40vh;
+  }
+  .slid5{
+    padding: 2px;
+  }
+  .slid6{
+    font-size: medium;
+  }
+  .greet-one{
+    text-align: center;
+  }
+  .mes{
+    color: #01eeff;
+  }
+  .assh{
+    height: auto;
+    padding-bottom: 2vh;
+  }
+  .log{
+    text-align: center;
+  }
+  .foot{
+    grid-template-columns: 1fr;
+  }
+  .parfoot{
+    height: auto;
+    padding: 2vh 0;
+    font-size: 115%;
+  }
+  .hicon2{
+    height: 30px;
+    width: 30px;
+  }
+  
+}
+
+
+
+
+
+@media screen and (min-width: 500px) and (max-width:1000px){
+    .nav{
+        display: none;
+    }
+    .slidNav{
+        display:none;
+    }
+    html{
+        font-size: 95%;
+    }
+    .fa-bars{
+        display: block;
+        z-index: 15555;
+        color: white;
+        font: bold;
+        font-size: 2rem;
+    }
+    .home-one{
+        flex-direction: column;
+        width: 90vw;
+       
+       
+    }
+    .home-main{
+        height: auto;
+        height: 100vh;
+    }
+    .hhh-one{
+        width: 90vw;
+    }
+    .hhh-two{
+        width: 90vw;
+        font-size: 1.2rem;
+    }
+    .hh-one{
+        order: 1;
+        padding-top: 3vh;
+    }
+    .hh-two{
+        width: 93vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+        order: 2;
+        
+    }
+    .home-pic{
+        width: 74vw;
+    }
+    .about-one{
+        flex-direction: column;
+        width: 90vw;
+    }
+    .aa-one{
+        width: 85vw;
+    }
+    .pb{
+        padding-bottom: 5vh;
+    }
+   
+    .proj-one{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .proj{
+        height: auto;
+        padding-bottom: 6vh;
+        padding-top: 3vh;
+    }
+    .butt{
+        width: 30vw;
+        font-size: 1.15rem;
+    }
+    .buttt{
+        width: 30vw;
+        height: 5vh;
+        border-radius: 30px;
+        font-size: 1.25rem;
+    }
+   .register-one{
+    grid-gap: 8px;
+   }
+    .rr-one{
+       
+        height: 5vh;
+        font-size: 1.3rem;
+    }
+    .rr-two{
+       
+        font-size: 1.3rem;
+    }
+    .ass-one{
+        width: 85vw;
+    }
+    .slid{
+        display: block;
+    }
+    .slid2{
+        display: none;
+    }
+    .slidd{
+       
+        height: auto;
+        padding-bottom: 5vh;
+        padding-top: 3vh;
+    }
+
+  .slid4{
+    height: 40vh;
+  }
+ 
+  .slid6{
+    font-size: medium;
+  }
+  .greet-one{
+    text-align: center;
+  }
+  .mes{
+    color: #01eeff;
+  }
+  .asspad{
+    padding: 0px;
+  }
+  .assrev{
+    font-size: 0.9rem;
+  }
+  .assbut{
+    width: 18vw;
+    height: 4vh;
+  }
+  .port{
+    font-size: 2.3rem;
+  }
+  .cont-top{
+    margin-top: 3vh;
+  }
+  
+}
+
+
+
+@media screen and (min-width:1000px) and (max-width: 1400px){
+   
+    html{
+        font-size: 100%;
+    }
+   
+.hid{
+    display: none;
+}
+
+    .fa-bars{
+        display: none;
+       
+    }
+    .slid2{
+        display: none;
+    }
+    .hh-two{
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+        order: 2;
+        
+    }
+    .home-pic{
+        width: 40vw;
+    }
+  #assignment{
+    height: 110vh;
+  }
+  .assbut{
+    height: 6vh;
+  }
+  .assh2{
+    height: auto;
+    padding-bottom: 4vh;
+  }
+  .proj{
+    height: auto;
+    padding: 6vh 0;
+  }
+  #contact{
+    height: auto;
+    padding: 6vh 0;
+  }
+  .parfoot{
+    height: auto;
+    padding: 3vh 0;
+  }
+ 
+}
+@media screen and (min-width:1400px) and (max-width:2000px){
+   
+    html{
+        font-size: 150%;
+    }
+    .fa-bars{
+        display: none;
+        z-index: 15555;
+        color: white;
+        font: bold;
+        font-size: 2rem;
+    }
+    .slid2{
+        display: none;
+    }
+    .assh2{
+        height: auto;
+        padding-bottom: 2vh;
+      }
+      .buttt{
+        width: 20vw;
+        height: 7vh;
+      }
+      .hicon{
+        width: 70px;
+        height: 70px;
+      }
+      .assbut{
+        width: 15vw;
+        height: 6vh;
+      }
+}
+
+@media screen and (min-width:2000px) and (max-width:2500px){
+   
+    html{
+        font-size: 175%;
+    }
+    .fa-bars{
+        display: none;
+        z-index: 15555;
+        color: white;
+        font: bold;
+        font-size: 2rem;
+    }
+    .slid2{
+        display: none;
+    }
+    .assh2{
+        height: auto;
+        padding-bottom: 2vh;
+      }
+      .buttt{
+        width: 20vw;
+        height: 7vh;
+      }
+      .hicon{
+        width: 90px;
+        height: 90px;
+      }
+      .assbut{
+        width: 15vw;
+        height: 6vh;
+      }
+}
+@media screen and (min-width:2500px){
+   
+    html{
+        font-size: 210%;
+    }
+    .fa-bars{
+        display: none;
+        z-index: 15555;
+        color: white;
+        font: bold;
+        font-size: 2rem;
+    }
+    .slid2{
+        display: none;
+    }
+    .assh2{
+        height: auto;
+        padding-bottom: 2vh;
+      }
+      .buttt{
+        width: 20vw;
+        height: 7vh;
+      }
+      .hicon{
+        width: 110px;
+        height: 110px;
+      }
+      .assbut{
+        width: 15vw;
+        height: 6vh;
+      }
+}
+
