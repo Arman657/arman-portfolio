@@ -81,28 +81,48 @@ const slidHide=()=>{
       <div className='flex list-none  pr-7 items-center mt-0 text-white h-[5vh] text-[1.1rem] nav'>
     
       
-        <NavLink to={'/'} onClick={colorChanged} className='px-5 visited:text-[#01eeff]'><li>Home</li></NavLink>
-        <NavLink to={'/about'} onClick={colorChanged2} className='px-5 hover:text-[#01eeff]'><li>About Us</li></NavLink>
-        <NavLink to={'/contact'} onClick={colorChanged} className='px-5 hover:text-[#01eeff]'><li>Contact</li></NavLink>
-        <NavLink to={'/myprojects'} onClick={colorChanged2} className='px-5 hover:text-[#01eeff]'><li>Projects</li></NavLink>
-        <NavLink to={'/assignment'} onClick={colorChanged} className='px-5 hover:text-[#01eeff]'><li>Assignment</li></NavLink>
+        <NavLink to={'/'}  className='px-5'>
+        <li>Home</li>
+        </NavLink>
+        <NavLink to={'/about'}  className='px-5'>
+        <li>About Us</li>
+        </NavLink>
+        <NavLink to={'/contact'}  className='px-5'>
+        <li>Contact</li>
+        </NavLink>
+        <NavLink to={'/myprojects'}  className='px-5'>
+        <li>Projects</li>
+        </NavLink>
+        <NavLink to={'/assignment'}  className='px-5'>
+        <li>Assignment</li>
+        </NavLink>
         
       
-        <NavLink to={'/logout'} className='px-5 hover:text-[#01eeff]' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}><li>Logout</li></NavLink>
+        {/* <NavLink to={'/logout'} className='px-5 hover:text-[#01eeff]' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}><li>Logout</li></NavLink> */}
         </div>
 
 
         <div className='slidNav' id='slidNavid' onClick={slidHide} >
     
       
-        <NavLink to={'/'} onClick={colorChanged}  className='py-5 flex items-center justify-center'><li className='under pr-7' id='under'>Home</li></NavLink>
-        <NavLink to={'/about'} onClick={colorChanged2} className='py-3 flex items-center justify-center '><li className='under pr-7' >About Us</li></NavLink>
-        <NavLink to={'/contact'} onClick={colorChanged} className='py-3 flex items-center justify-center'><li className='under pr-7'>Contact</li></NavLink>
-        <NavLink to={'/myprojects'} onClick={colorChanged2} className='py-3 flex items-center justify-center  '><li className='under pr-7'>Projects</li></NavLink>
-        <NavLink to={'/assignment'} onClick={colorChanged} className='py-3 flex items-center justify-center'><li className='under pr-3'>Assignment</li></NavLink>
+        <NavLink to={'/'}   className='py-5 flex items-center justify-center'>
+        <p className='under pr-7' id='under'>Home</p>
+        </NavLink>
+        <NavLink to={'/about'}  className='py-3 flex items-center justify-center '>
+        <p className='under pr-7' >About Us</p>
+        </NavLink>
+        <NavLink to={'/contact'}  className='py-3 flex items-center justify-center'>
+        <p className='under pr-7'>Contact</p>
+        </NavLink>
+        <NavLink to={'/myprojects'}  className='py-3 flex items-center justify-center  '>
+        <p className='under pr-7'>Projects</p>
+        </NavLink>
+        <NavLink to={'/assignment'}  className='py-3 flex items-center justify-center'>
+        <p className='under pr-3'>Assignment</p>
+        </NavLink>
         
       
-        <NavLink to={'/logout'} className='py-3 flex items-center justify-center hover:text-[#01eeff]' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}><li className='pr-7'>Logout</li></NavLink>
+        {/* <NavLink to={'/logout'} className='py-3 flex items-center justify-center hover:text-[#01eeff]' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}><li className='pr-7'>Logout</li></NavLink> */}
         </div>
 
 

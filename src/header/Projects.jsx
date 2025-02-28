@@ -31,7 +31,7 @@ const Projects = () => {
         
         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
         <img className='but4 rounded-t-md' src="https://i.ytimg.com/vi/G0jO8kUrg-I/maxresdefault.jpg" alt="" />
-       <h1 className='text-[1rem] text-[#20242d] font-bold h-10 flex items-center pl-3 bg-[#01eeff] rounded-b-md but2 cursor-pointer proj-text'><a href="">E-Commerce Website</a></h1>
+       <h1 className='text-[1rem] text-[#20242d] font-bold h-10 flex items-center pl-3 bg-[#01eeff] rounded-b-md but2 cursor-pointer proj-text'><a href="https://clotree-frontend.vercel.app/">E-Commerce Website</a></h1>
         </div>
         
     </div>

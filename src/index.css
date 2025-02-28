@@ -11,3 +11,20 @@ body{
 .slick-slide > div{
     margin: 0 5px;
 }
+
+
+a.active li{
+    color: #01eeff;
+}
+
+@media (max-width:640px) {
+    a.active{
+     
+        color: #01eeff;
+      
+    
+    }
+  }
+
+
+  

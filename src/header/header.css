@@ -110,14 +110,7 @@ input{
     
 }
 
-.under:visited{
-    color: #01eeff;
-    border-bottom: 2px solid #01eeff;
-}
-.under:active:hover{
-color: #01eeff;
-    border-bottom: 2px solid #01eeff;
-}
+
 
 
 @media screen and (max-width: 500px){

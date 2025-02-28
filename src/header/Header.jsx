@@ -17,17 +17,18 @@ const Header = () => {
 <Navigation/>
   <Routes>
     <Route element={<ProtectedRoutes/>}>
+    
+    
+    </Route>
+    <Route path='/' element={<Home/>}></Route>
     <Route path='/about' element={<About/>}></Route>
     <Route path='/assignment' element={<Assingnment/>}></Route>
     <Route path='/myprojects' element={<Projects/>}></Route>
     
-    </Route>
-    <Route path='/' element={<Home/>}></Route>
-    
     <Route path='/contact' element={<Contact/>}></Route>
-
+{/* 
     <Route path='/Login' element={<Login/>}></Route>
-    <Route path='/logout' element={<Login/>}></Route>
+    <Route path='/logout' element={<Login/>}></Route> */}
   </Routes>
 </BrowserRouter>
     </div>
